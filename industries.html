@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Industries | Solo Vault AI — Finance, Healthcare, Energy, Manufacturing, Defense</title>
+  <meta name="description" content="Sector-specific agentic AI solutions for finance, healthcare, energy, manufacturing, and defense — private, compliant, and human-governed." />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { vault: { 950: '#05070f', 900: '#0a0f1c', accent: '#00f0ff', accent2: '#7c3aed' } },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], display: ['Orbitron', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    .glass { background: rgba(15, 23, 42, 0.55); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.08); }
+  </style>
+</head>
+<body class="bg-vault-950 text-slate-200 font-sans antialiased">
+
+  <nav class="fixed top-0 inset-x-0 z-50 glass border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-vault-accent to-vault-accent2 flex items-center justify-center">
+            <i class="fas fa-shield-halved text-white text-sm"></i>
+          </div>
+          <span class="font-display font-semibold text-lg text-white">Solo Vault AI</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+          <a href="platform.html" class="hover:text-vault-accent transition">Platform</a>
+          <a href="moat.html" class="hover:text-vault-accent transition">MOAT</a>
+          <a href="infrastructure.html" class="hover:text-vault-accent transition">Infrastructure</a>
+          <a href="industries.html" class="text-vault-accent">Industries</a>
+          <a href="compliance.html" class="hover:text-vault-accent transition">Compliance</a>
+          <a href="about.html" class="hover:text-vault-accent transition">About</a>
+        </div>
+        <a href="contact.html" class="hidden md:inline-flex px-5 py-2.5 rounded-full bg-gradient-to-r from-vault-accent to-vault-accent2 text-vault-950 font-semibold text-sm">Request Demo</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-28 pb-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-16">
+        <p class="text-vault-accent text-sm font-medium mb-3">VERTICALS</p>
+        <h1 class="font-display text-4xl sm:text-5xl font-bold text-white mb-6">Built for regulated industries</h1>
+        <p class="text-lg text-slate-400">Each sector has unique data sensitivity, regulatory pressure, and operational cadence. Solo Vault agents are designed with those constraints as first-class requirements.</p>
+      </div>
+
+      <div class="space-y-6">
+        <div class="glass rounded-2xl p-8 flex flex-col md:flex-row gap-6">
+          <div class="w-14 h-14 rounded-xl bg-cyan-500/10 flex items-center justify-center shrink-0">
+            <i class="fas fa-university text-vault-accent text-xl"></i>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold text-white mb-2">Finance & Capital Markets</h2>
+            <p class="text-slate-400 text-sm leading-relaxed">Private agents for fund placement, investor relations, compliance monitoring, and operational workflows. Designed with SEC, FINRA, and data-residency considerations in mind.</p>
+          </div>
+        </div>
+
+        <div class="glass rounded-2xl p-8 flex flex-col md:flex-row gap-6">
+          <div class="w-14 h-14 rounded-xl bg-rose-500/10 flex items-center justify-center shrink-0">
+            <i class="fas fa-heartbeat text-rose-400 text-xl"></i>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold text-white mb-2">Healthcare & Life Sciences</h2>
+            <p class="text-slate-400 text-sm leading-relaxed">HIPAA-aligned agentic systems for clinical trial coordination, patient engagement (where appropriate), and internal operational agents. PHI never leaves the controlled boundary.</p>
+          </div>
+        </div>
+
+        <div class="glass rounded-2xl p-8 flex flex-col md:flex-row gap-6">
+          <div class="w-14 h-14 rounded-xl bg-amber-500/10 flex items-center justify-center shrink-0">
+            <i class="fas fa-bolt text-amber-400 text-xl"></i>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold text-white mb-2">Energy & Critical Infrastructure</h2>
+            <p class="text-slate-400 text-sm leading-relaxed">NERC-CIP aware architectures for operational technology support, documentation agents, and secure knowledge systems supporting energy producers and operators.</p>
+          </div>
+        </div>
+
+        <div class="glass rounded-2xl p-8 flex flex-col md:flex-row gap-6">
+          <div class="w-14 h-14 rounded-xl bg-emerald-500/10 flex items-center justify-center shrink-0">
+            <i class="fas fa-industry text-emerald-400 text-xl"></i>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold text-white mb-2">Manufacturing</h2>
+            <p class="text-slate-400 text-sm leading-relaxed">Agents that support quality systems, supply-chain coordination, and knowledge capture while respecting OT/IT separation and proprietary process data.</p>
+          </div>
+        </div>
+
+        <div class="glass rounded-2xl p-8 flex flex-col md:flex-row gap-6">
+          <div class="w-14 h-14 rounded-xl bg-violet-500/10 flex items-center justify-center shrink-0">
+            <i class="fas fa-shield-alt text-violet-400 text-xl"></i>
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold text-white mb-2">Defense & Government</h2>
+            <p class="text-slate-400 text-sm leading-relaxed">Air-gap capable deployments, strict access controls, and audit posture suitable for environments with elevated classification and continuous monitoring requirements.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="border-t border-white/5 py-10">
+    <div class="max-w-7xl mx-auto px-4 text-center text-sm text-slate-600">
+      <p>© 2026 Solo Vault AI, Inc.</p>
+    </div>
+  </footer>
+</body>
+</html>
