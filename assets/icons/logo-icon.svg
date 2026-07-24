@@ -1,14 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Solo Vault AI">
-  <!-- Grey circle -->
   <circle cx="50" cy="50" r="42" fill="#969696"/>
-  
-  <!-- White slash - refined path matching original geometry -->
-  <path d="M16 78 
-           C 30 55, 48 38, 70 22 
-           Q 78 16, 86 24 
-           L 82 34 
-           Q 74 28, 66 36 
-           C 48 52, 32 68, 22 80 
-           Q 16 84, 16 78 Z" 
-        fill="#FFFFFF"/>
+  <path d="M18 76C32 52 50 34 72 20Q80 14 88 26L82 36Q74 28 64 38C48 54 32 70 22 80Q16 84 18 76Z" fill="#FFFFFF"/>
 </svg>
