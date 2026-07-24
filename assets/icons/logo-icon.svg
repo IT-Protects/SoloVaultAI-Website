@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Solo Vault AI">
-  <circle cx="50" cy="50" r="46" fill="#0B1F3A"/>
-  <line x1="18" y1="78" x2="82" y2="22" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round"/>
-  <path d="M76 18 Q90 28 82 48 L70 40 Q78 28 76 18 Z" fill="#FFFFFF"/>
+  <!-- Grey orb -->
+  <circle cx="50" cy="50" r="42" fill="#969696"/>
+  <!-- White slash with flared tip -->
+  <path d="M18 78 L78 22 Q85 18 88 28 L80 35 Q72 28 65 35 L25 72 Q20 78 18 78 Z" fill="#FFFFFF"/>
+  <line x1="20" y1="76" x2="80" y2="24" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
 </svg>
