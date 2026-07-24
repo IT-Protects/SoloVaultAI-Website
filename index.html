@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solo Vault AI | Sovereign Agentic AI Platform for Regulated Industries</title>
+  <meta name="description" content="Solo Vault AI delivers private, human-governed agentic AI with zero data exfiltration. Built for finance, healthcare, energy, manufacturing, and defense on NVIDIA DGX Spark infrastructure." />
+  <meta name="keywords" content="Sovereign Agentic AI, Private AI Platform, MOAT Governance, Zero Trust AI, On-Prem AI, Regulated Industries AI" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Solo Vault AI | Sovereign Agentic AI Platform" />
+  <meta property="og:description" content="Private agentic AI that never leaves your firewall. Zero exfiltration. Human-governed. Compliance-ready." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solovault.ai/" />
+  <meta property="og:image" content="https://solovault.ai/assets/images/og-home.jpg" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Solo Vault AI | Sovereign Agentic AI" />
+  <meta name="twitter:description" content="Private agentic AI for regulated industries. Zero data leaves." />
+  
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Solo Vault AI",
+    "url": "https://solovault.ai",
+    "logo": "https://solovault.ai/assets/images/logo.png",
+    "description": "Sovereign agentic AI platform for heavily regulated industries.",
+    "sameAs": []
+  }
+  </script>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            vault: {
+              950: '#05070f',
+              900: '#0a0f1c',
+              800: '#111827',
+              700: '#1e293b',
+              accent: '#00f0ff',
+              accent2: '#7c3aed',
+              gold: '#f59e0b'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            display: ['Orbitron', 'sans-serif']
+          },
+          animation: {
+            'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'float': 'float 6s ease-in-out infinite'
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0)' },
+              '50%': { transform: 'translateY(-12px)' }
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <style>
+    .glass {
+      background: rgba(15, 23, 42, 0.55);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glow-accent {
+      box-shadow: 0 0 40px rgba(0, 240, 255, 0.15);
+    }
+    .text-gradient {
+      background: linear-gradient(135deg, #00f0ff 0%, #7c3aed 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero-video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.35;
+    }
+  </style>
+</head>
+<body class="bg-vault-950 text-slate-200 font-sans antialiased">
+
+  <!-- Sticky Navbar -->
+  <nav class="fixed top-0 inset-x-0 z-50 glass border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-3 group">
+          <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-vault-accent to-vault-accent2 flex items-center justify-center">
+            <i class="fas fa-shield-halved text-white text-sm"></i>
+          </div>
+          <span class="font-display font-semibold text-lg tracking-tight text-white group-hover:text-vault-accent transition">Solo Vault AI</span>
+        </a>
+        
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+          <a href="platform.html" class="hover:text-vault-accent transition">Platform</a>
+          <a href="moat.html" class="hover:text-vault-accent transition">MOAT</a>
+          <a href="infrastructure.html" class="hover:text-vault-accent transition">Infrastructure</a>
+          <a href="industries.html" class="hover:text-vault-accent transition">Industries</a>
+          <a href="compliance.html" class="hover:text-vault-accent transition">Compliance</a>
+          <a href="about.html" class="hover:text-vault-accent transition">About</a>
+        </div>
+        
+        <a href="contact.html" class="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-vault-accent to-vault-accent2 text-vault-950 font-semibold text-sm hover:opacity-90 transition shadow-lg shadow-cyan-500/20">
+          Request Demo
+        </a>
+        
+        <!-- Mobile menu button -->
+        <button id="mobile-menu-btn" class="md:hidden text-slate-300 hover:text-white">
+          <i class="fas fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden md:hidden glass border-t border-white/5">
+      <div class="px-4 py-4 space-y-3 text-sm">
+        <a href="platform.html" class="block py-2 hover:text-vault-accent">Platform</a>
+        <a href="moat.html" class="block py-2 hover:text-vault-accent">MOAT</a>
+        <a href="infrastructure.html" class="block py-2 hover:text-vault-accent">Infrastructure</a>
+        <a href="industries.html" class="block py-2 hover:text-vault-accent">Industries</a>
+        <a href="compliance.html" class="block py-2 hover:text-vault-accent">Compliance</a>
+        <a href="about.html" class="block py-2 hover:text-vault-accent">About</a>
+        <a href="contact.html" class="block mt-4 text-center py-3 rounded-full bg-gradient-to-r from-vault-accent to-vault-accent2 text-vault-950 font-semibold">Request Demo</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="relative min-h-screen flex items-center overflow-hidden">
+    <!-- Video / gradient background -->
+    <div class="absolute inset-0 bg-gradient-to-b from-vault-950 via-vault-900 to-vault-950">
+      <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-900/20 via-transparent to-transparent"></div>
+      <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMyMDIwMjAiIGZpbGwtb3BhY2l0eT0iMC4wNCI+PHBhdGggZD0iTTM2IDM0djItSDI0di0yaDEyek0zNiAyNHYySDI0di0yaDEyeiIvPjwvZz48L2c+PC9zdmc+')] opacity-40"></div>
+    </div>
+    
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-20">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass text-xs font-medium text-vault-accent mb-6">
+            <span class="w-2 h-2 rounded-full bg-vault-accent animate-pulse"></span>
+            Sovereign • Private • Human-Governed
+          </div>
+          
+          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-white mb-6">
+            Agentic AI that<br>
+            <span class="text-gradient">never leaves</span><br>
+            your firewall.
+          </h1>
+          
+          <p class="text-lg text-slate-400 max-w-xl mb-8 leading-relaxed">
+            Solo Vault AI delivers production-grade agentic systems for finance, healthcare, energy, manufacturing, and defense — with zero data exfiltration, full auditability, and human-in-the-loop governance.
+          </p>
+          
+          <div class="flex flex-wrap gap-4">
+            <a href="contact.html" class="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-vault-accent to-vault-accent2 text-vault-950 font-semibold hover:opacity-90 transition shadow-xl shadow-cyan-500/25">
+              Request Enterprise Demo
+              <i class="fas fa-arrow-right text-sm"></i>
+            </a>
+            <a href="platform.html" class="inline-flex items-center gap-2 px-7 py-3.5 rounded-full glass text-white font-medium hover:bg-white/10 transition">
+              Explore Platform
+            </a>
+          </div>
+          
+          <!-- Trust signals -->
+          <div class="mt-12 flex flex-wrap items-center gap-6 text-xs text-slate-500">
+            <div class="flex items-center gap-2">
+              <i class="fas fa-lock text-vault-accent"></i>
+              <span>Zero Exfiltration</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fas fa-microchip text-vault-accent"></i>
+              <span>NVIDIA DGX Spark</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fas fa-certificate text-vault-accent"></i>
+              <span>ISO 27001 Ready</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Hero visual card -->
+        <div class="relative hidden lg:block">
+          <div class="absolute -inset-4 bg-gradient-to-r from-vault-accent/20 to-vault-accent2/20 rounded-3xl blur-2xl opacity-60"></div>
+          <div class="relative glass rounded-2xl p-8 glow-accent">
+            <div class="flex items-center justify-between mb-6">
+              <span class="text-xs font-mono text-vault-accent">SOLO VAULT RUNTIME</span>
+              <span class="flex items-center gap-1.5 text-xs text-emerald-400">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                SECURE
+              </span>
+            </div>
+            <div class="space-y-4 font-mono text-sm">
+              <div class="flex justify-between text-slate-400">
+                <span>Agent Orchestrator</span>
+                <span class="text-emerald-400">ACTIVE</span>
+              </div>
+              <div class="flex justify-between text-slate-400">
+                <span>Data Boundary</span>
+                <span class="text-vault-accent">AIR-GAPPED</span>
+              </div>
+              <div class="flex justify-between text-slate-400">
+                <span>MOAT Governance</span>
+                <span class="text-violet-400">ENFORCED</span>
+              </div>
+              <div class="flex justify-between text-slate-400">
+                <span>Audit Trail</span>
+                <span class="text-amber-400">IMMUTABLE</span>
+              </div>
+            </div>
+            <div class="mt-8 pt-6 border-t border-white/10">
+              <div class="h-2 rounded-full bg-vault-800 overflow-hidden">
+                <div class="h-full w-4/5 bg-gradient-to-r from-vault-accent to-vault-accent2 rounded-full"></div>
+              </div>
+              <p class="mt-2 text-xs text-slate-500">Cluster utilization — Texas data center</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Value Props -->
+  <section class="py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="font-display text-3xl sm:text-4xl font-bold text-white mb-4">Why regulated industries choose Solo Vault</h2>
+        <p class="text-slate-400 max-w-2xl mx-auto">Hyperscale capability inside your perimeter. No public cloud dependency. No data leakage path.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="glass rounded-2xl p-8 hover:border-vault-accent/30 transition group">
+          <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center mb-5 group-hover:scale-110 transition">
+            <i class="fas fa-shield-virus text-vault-accent text-xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-3">Zero Data Exfiltration</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Every model, agent, and inference stays inside your network or dedicated private cluster. No telemetry, no training on your data, no third-party APIs that see sensitive content.</p>
+        </div>
+        
+        <div class="glass rounded-2xl p-8 hover:border-violet-500/30 transition group">
+          <div class="w-12 h-12 rounded-xl bg-violet-500/10 flex items-center justify-center mb-5 group-hover:scale-110 transition">
+            <i class="fas fa-user-check text-violet-400 text-xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-3">Human-Governed Agents</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">MOAT Governance keeps humans in the control loop. Policy engines, approval workflows, and immutable audit trails ensure agents act only within defined authority.</p>
+        </div>
+        
+        <div class="glass rounded-2xl p-8 hover:border-amber-500/30 transition group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center mb-5 group-hover:scale-110 transition">
+            <i class="fas fa-server text-amber-400 text-xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-white mb-3">NVIDIA DGX Power</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Production clusters on NVIDIA DGX Spark in Texas data centers. Low latency, high throughput, and full control over the compute stack.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries strip -->
+  <section class="py-16 border-y border-white/5 bg-vault-900/50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <p class="text-center text-sm text-slate-500 mb-8 uppercase tracking-widest">Built for</p>
+      <div class="flex flex-wrap justify-center gap-8 md:gap-16 text-slate-400">
+        <div class="flex items-center gap-3"><i class="fas fa-university text-vault-accent"></i> Finance</div>
+        <div class="flex items-center gap-3"><i class="fas fa-heartbeat text-vault-accent"></i> Healthcare</div>
+        <div class="flex items-center gap-3"><i class="fas fa-bolt text-vault-accent"></i> Energy</div>
+        <div class="flex items-center gap-3"><i class="fas fa-industry text-vault-accent"></i> Manufacturing</div>
+        <div class="flex items-center gap-3"><i class="fas fa-shield-alt text-vault-accent"></i> Defense</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-24">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="font-display text-3xl sm:text-4xl font-bold text-white mb-6">Ready to keep your AI sovereign?</h2>
+      <p class="text-slate-400 mb-10 max-w-2xl mx-auto">Schedule a private briefing. We’ll walk through architecture, compliance posture, and a tailored pilot for your environment.</p>
+      <a href="contact.html" class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-vault-accent to-vault-accent2 text-vault-950 font-semibold text-lg hover:opacity-90 transition shadow-xl shadow-cyan-500/25">
+        Request Demo
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/5 bg-vault-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-vault-accent to-vault-accent2 flex items-center justify-center">
+              <i class="fas fa-shield-halved text-white text-xs"></i>
+            </div>
+            <span class="font-display font-semibold text-white">Solo Vault AI</span>
+          </div>
+          <p class="text-sm text-slate-500 max-w-sm">Sovereign agentic AI for regulated industries. Private by design. Governed by humans.</p>
+        </div>
+        <div>
+          <h4 class="text-sm font-semibold text-white mb-4">Platform</h4>
+          <ul class="space-y-2 text-sm text-slate-500">
+            <li><a href="platform.html" class="hover:text-vault-accent">Capabilities</a></li>
+            <li><a href="moat.html" class="hover:text-vault-accent">MOAT Governance</a></li>
+            <li><a href="infrastructure.html" class="hover:text-vault-accent">Infrastructure</a></li>
+            <li><a href="compliance.html" class="hover:text-vault-accent">Compliance</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-sm font-semibold text-white mb-4">Company</h4>
+          <ul class="space-y-2 text-sm text-slate-500">
+            <li><a href="about.html" class="hover:text-vault-accent">About</a></li>
+            <li><a href="industries.html" class="hover:text-vault-accent">Industries</a></li>
+            <li><a href="contact.html" class="hover:text-vault-accent">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-600">
+        <p>© 2026 Solo Vault AI, Inc. All rights reserved.</p>
+        <div class="flex gap-6">
+          <a href="#" class="hover:text-slate-400">Privacy</a>
+          <a href="#" class="hover:text-slate-400">Terms</a>
+          <a href="#" class="hover:text-slate-400">Security</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('mobile-menu-btn')?.addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
