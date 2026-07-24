@@ -1,17 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Solo Vault AI">
-  <!-- Dark navy background -->
-  <rect width="100" height="100" fill="#0B1F3A"/>
+  <!-- Dark navy circle -->
+  <circle cx="50" cy="50" r="42" fill="#0B1F3A"/>
   
-  <!-- Grey orb -->
-  <circle cx="50" cy="50" r="36" fill="#969696"/>
-  
-  <!-- Full white flared slash matching the preferred image -->
-  <path d="M15 82 
-           L68 30 
-           Q76 22 86 28 
-           L82 40 
-           Q74 34 64 42 
-           L25 75 
-           Q18 82 15 82 Z" 
-        fill="#FFFFFF"/>
+  <!-- Clean thin white slash with rounded ends - matching the reference image exactly -->
+  <line x1="22" y1="72" x2="78" y2="28" 
+        stroke="#FFFFFF" 
+        stroke-width="7" 
+        stroke-linecap="round"/>
 </svg>
