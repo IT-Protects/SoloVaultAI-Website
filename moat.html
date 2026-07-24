@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MOAT Governance | Solo Vault AI — Human-Governed Agentic Systems</title>
+  <meta name="description" content="MOAT Governance is Solo Vault’s philosophy and technical framework for keeping humans in control of agentic AI: policy engines, approval workflows, and immutable audit." />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { vault: { 950: '#05070f', 900: '#0a0f1c', accent: '#00f0ff', accent2: '#7c3aed' } },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], display: ['Orbitron', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    .glass { background: rgba(15, 23, 42, 0.55); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.08); }
+    .text-gradient { background: linear-gradient(135deg, #00f0ff, #7c3aed); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="bg-vault-950 text-slate-200 font-sans antialiased">
+
+  <nav class="fixed top-0 inset-x-0 z-50 glass border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-vault-accent to-vault-accent2 flex items-center justify-center">
+            <i class="fas fa-shield-halved text-white text-sm"></i>
+          </div>
+          <span class="font-display font-semibold text-lg text-white">Solo Vault AI</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+          <a href="platform.html" class="hover:text-vault-accent transition">Platform</a>
+          <a href="moat.html" class="text-vault-accent">MOAT</a>
+          <a href="infrastructure.html" class="hover:text-vault-accent transition">Infrastructure</a>
+          <a href="industries.html" class="hover:text-vault-accent transition">Industries</a>
+          <a href="compliance.html" class="hover:text-vault-accent transition">Compliance</a>
+          <a href="about.html" class="hover:text-vault-accent transition">About</a>
+        </div>
+        <a href="contact.html" class="hidden md:inline-flex px-5 py-2.5 rounded-full bg-gradient-to-r from-vault-accent to-vault-accent2 text-vault-950 font-semibold text-sm">Request Demo</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-28 pb-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-16">
+        <p class="text-vault-accent text-sm font-medium mb-3">GOVERNANCE</p>
+        <h1 class="font-display text-4xl sm:text-5xl font-bold text-white mb-6">MOAT Governance</h1>
+        <p class="text-lg text-slate-400 leading-relaxed">A deliberate architecture that keeps humans in the decision loop. MOAT is not an afterthought — it is the control plane that makes agentic AI safe for regulated industries.</p>
+      </div>
+
+      <div class="grid lg:grid-cols-3 gap-6 mb-16">
+        <div class="glass rounded-2xl p-7">
+          <div class="text-3xl font-display font-bold text-vault-accent mb-3">01</div>
+          <h3 class="text-lg font-semibold text-white mb-2">Policy Engine</h3>
+          <p class="text-sm text-slate-400">Declarative rules that define what agents may do, under what conditions, and with which data. Policies are versioned, testable, and auditable.</p>
+        </div>
+        <div class="glass rounded-2xl p-7">
+          <div class="text-3xl font-display font-bold text-violet-400 mb-3">02</div>
+          <h3 class="text-lg font-semibold text-white mb-2">Approval Workflows</h3>
+          <p class="text-sm text-slate-400">High-stakes actions require explicit human sign-off. Escalation paths are configurable by risk level, role, and business context.</p>
+        </div>
+        <div class="glass rounded-2xl p-7">
+          <div class="text-3xl font-display font-bold text-amber-400 mb-3">03</div>
+          <h3 class="text-lg font-semibold text-white mb-2">Immutable Audit</h3>
+          <p class="text-sm text-slate-400">Every agent decision, tool invocation, and human override is recorded in a tamper-evident log suitable for regulators and internal review.</p>
+        </div>
+      </div>
+
+      <div class="glass rounded-2xl p-10 mb-16">
+        <h2 class="font-display text-2xl font-bold text-white mb-4">Why “MOAT”?</h2>
+        <p class="text-slate-400 leading-relaxed max-w-3xl">
+          A moat protects what is valuable. In agentic systems the valuable asset is not only the model weights — it is the decisions those models make on behalf of the organization. MOAT Governance creates a deliberate, enforceable boundary between autonomous capability and uncontrolled action. Humans remain the final authority.
+        </p>
+      </div>
+
+      <div class="text-center">
+        <a href="contact.html" class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-vault-accent to-vault-accent2 text-vault-950 font-semibold">
+          Talk Governance with Us
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="border-t border-white/5 py-10">
+    <div class="max-w-7xl mx-auto px-4 text-center text-sm text-slate-600">
+      <p>© 2026 Solo Vault AI, Inc.</p>
+    </div>
+  </footer>
+</body>
+</html>
