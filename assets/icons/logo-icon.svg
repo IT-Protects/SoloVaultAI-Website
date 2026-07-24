@@ -1,7 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Solo Vault AI">
   <circle cx="50" cy="50" r="46" fill="#0B1F3A"/>
-  <!-- Main white slash -->
   <line x1="18" y1="78" x2="82" y2="22" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round"/>
-  <!-- Flare tip -->
-  <path d="M76 18 Q 90 28 82 48 L 70 40 Q 78 28 76 18 Z" fill="#FFFFFF"/>
+  <path d="M76 18 Q90 28 82 48 L70 40 Q78 28 76 18 Z" fill="#FFFFFF"/>
 </svg>
