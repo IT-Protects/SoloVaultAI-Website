@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compliance & Security | Solo Vault AI — ISO 27001, Zero Trust, SOC Ready</title>
+  <meta name="description" content="Solo Vault AI is designed for ISO 27001, SOC, Zero Trust, and regulated-industry security postures. Zero data exfiltration is an architectural property, not a policy claim." />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { vault: { 950: '#05070f', 900: '#0a0f1c', accent: '#00f0ff', accent2: '#7c3aed' } },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], display: ['Orbitron', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    .glass { background: rgba(15, 23, 42, 0.55); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.08); }
+  </style>
+</head>
+<body class="bg-vault-950 text-slate-200 font-sans antialiased">
+
+  <nav class="fixed top-0 inset-x-0 z-50 glass border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-vault-accent to-vault-accent2 flex items-center justify-center">
+            <i class="fas fa-shield-halved text-white text-sm"></i>
+          </div>
+          <span class="font-display font-semibold text-lg text-white">Solo Vault AI</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+          <a href="platform.html" class="hover:text-vault-accent transition">Platform</a>
+          <a href="moat.html" class="hover:text-vault-accent transition">MOAT</a>
+          <a href="infrastructure.html" class="hover:text-vault-accent transition">Infrastructure</a>
+          <a href="industries.html" class="hover:text-vault-accent transition">Industries</a>
+          <a href="compliance.html" class="text-vault-accent">Compliance</a>
+          <a href="about.html" class="hover:text-vault-accent transition">About</a>
+        </div>
+        <a href="contact.html" class="hidden md:inline-flex px-5 py-2.5 rounded-full bg-gradient-to-r from-vault-accent to-vault-accent2 text-vault-950 font-semibold text-sm">Request Demo</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-28 pb-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-16">
+        <p class="text-vault-accent text-sm font-medium mb-3">TRUST</p>
+        <h1 class="font-display text-4xl sm:text-5xl font-bold text-white mb-6">Compliance & Security</h1>
+        <p class="text-lg text-slate-400">Zero data exfiltration is not a marketing claim — it is an architectural property. The platform is designed to support ISO 27001, SOC, Zero Trust, and sector-specific frameworks from day one.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <div class="glass rounded-2xl p-6 text-center">
+          <i class="fas fa-certificate text-3xl text-vault-accent mb-4"></i>
+          <h3 class="font-semibold text-white mb-2">ISO 27001 Ready</h3>
+          <p class="text-sm text-slate-400">Control mapping and evidence collection designed into the platform.</p>
+        </div>
+        <div class="glass rounded-2xl p-6 text-center">
+          <i class="fas fa-user-shield text-3xl text-violet-400 mb-4"></i>
+          <h3 class="font-semibold text-white mb-2">Zero Trust</h3>
+          <p class="text-sm text-slate-400">Continuous verification, least privilege, and micro-segmentation principles.</p>
+        </div>
+        <div class="glass rounded-2xl p-6 text-center">
+          <i class="fas fa-lock text-3xl text-amber-400 mb-4"></i>
+          <h3 class="font-semibold text-white mb-2">Zero Exfiltration</h3>
+          <p class="text-sm text-slate-400">No training on customer data. No telemetry of sensitive content. Boundary enforced.</p>
+        </div>
+      </div>
+
+      <div class="glass rounded-2xl p-10">
+        <h2 class="font-display text-2xl font-bold text-white mb-6">Security posture highlights</h2>
+        <ul class="grid md:grid-cols-2 gap-4 text-sm text-slate-400">
+          <li class="flex gap-3"><i class="fas fa-check text-vault-accent mt-1"></i> Private model inference only</li>
+          <li class="flex gap-3"><i class="fas fa-check text-vault-accent mt-1"></i> Immutable audit trails</li>
+          <li class="flex gap-3"><i class="fas fa-check text-vault-accent mt-1"></i> Role-based & attribute-based access</li>
+          <li class="flex gap-3"><i class="fas fa-check text-vault-accent mt-1"></i> Network isolation & peering options</li>
+          <li class="flex gap-3"><i class="fas fa-check text-vault-accent mt-1"></i> Encryption in transit and at rest</li>
+          <li class="flex gap-3"><i class="fas fa-check text-vault-accent mt-1"></i> Human-governed agent actions</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="border-t border-white/5 py-10">
+    <div class="max-w-7xl mx-auto px-4 text-center text-sm text-slate-600">
+      <p>© 2026 Solo Vault AI, Inc.</p>
+    </div>
+  </footer>
+</body>
+</html>
