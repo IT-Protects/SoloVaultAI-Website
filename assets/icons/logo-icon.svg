@@ -2,6 +2,9 @@
   <!-- Grey circle -->
   <circle cx="50" cy="50" r="42" fill="#969696"/>
   
-  <!-- Clean full white diagonal slash matching reference -->
-  <line x1="18" y1="78" x2="82" y2="22" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round"/>
+  <!-- Full-length white slash with rounded ends -->
+  <line x1="12" y1="82" x2="88" y2="18" 
+        stroke="#FFFFFF" 
+        stroke-width="10" 
+        stroke-linecap="round"/>
 </svg>
