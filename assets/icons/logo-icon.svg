@@ -2,13 +2,13 @@
   <!-- Grey circle -->
   <circle cx="50" cy="50" r="42" fill="#969696"/>
   
-  <!-- Full white slash with flared tip (matching original) -->
-  <path d="M18 76 
-           L72 28 
-           Q78 22 85 28 
-           L80 38 
-           Q72 32 65 40 
-           L28 70 
-           Q22 76 18 76 Z" 
+  <!-- White slash - refined path matching original geometry -->
+  <path d="M16 78 
+           C 30 55, 48 38, 70 22 
+           Q 78 16, 86 24 
+           L 82 34 
+           Q 74 28, 66 36 
+           C 48 52, 32 68, 22 80 
+           Q 16 84, 16 78 Z" 
         fill="#FFFFFF"/>
 </svg>
