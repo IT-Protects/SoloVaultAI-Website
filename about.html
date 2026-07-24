@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Solo Vault AI | Sovereign Agentic AI for Regulated Industries</title>
+  <meta name="description" content="Solo Vault AI builds private, human-governed agentic systems for finance, healthcare, energy, manufacturing, and defense. Founded on the principle that sensitive data should never leave your control." />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { vault: { 950: '#05070f', 900: '#0a0f1c', accent: '#00f0ff', accent2: '#7c3aed' } },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], display: ['Orbitron', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    .glass { background: rgba(15, 23, 42, 0.55); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.08); }
+  </style>
+</head>
+<body class="bg-vault-950 text-slate-200 font-sans antialiased">
+
+  <nav class="fixed top-0 inset-x-0 z-50 glass border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-vault-accent to-vault-accent2 flex items-center justify-center">
+            <i class="fas fa-shield-halved text-white text-sm"></i>
+          </div>
+          <span class="font-display font-semibold text-lg text-white">Solo Vault AI</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+          <a href="platform.html" class="hover:text-vault-accent transition">Platform</a>
+          <a href="moat.html" class="hover:text-vault-accent transition">MOAT</a>
+          <a href="infrastructure.html" class="hover:text-vault-accent transition">Infrastructure</a>
+          <a href="industries.html" class="hover:text-vault-accent transition">Industries</a>
+          <a href="compliance.html" class="hover:text-vault-accent transition">Compliance</a>
+          <a href="about.html" class="text-vault-accent">About</a>
+        </div>
+        <a href="contact.html" class="hidden md:inline-flex px-5 py-2.5 rounded-full bg-gradient-to-r from-vault-accent to-vault-accent2 text-vault-950 font-semibold text-sm">Request Demo</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-28 pb-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-16">
+        <p class="text-vault-accent text-sm font-medium mb-3">COMPANY</p>
+        <h1 class="font-display text-4xl sm:text-5xl font-bold text-white mb-6">About Solo Vault AI</h1>
+        <p class="text-lg text-slate-400 leading-relaxed">We exist because regulated industries cannot accept the risk profile of public AI services. Sensitive data, controlled decisions, and auditability are non-negotiable. Solo Vault was built to deliver agentic capability without the compromise.</p>
+      </div>
+
+      <div class="glass rounded-2xl p-10 mb-12">
+        <h2 class="font-display text-2xl font-bold text-white mb-4">Our stance</h2>
+        <p class="text-slate-400 leading-relaxed mb-6">
+          Public cloud AI is extraordinary technology. It is also the wrong tool for many of the highest-value and highest-risk use cases. When models train on or even transiently process regulated data, the organization inherits risks that compliance teams cannot accept and that auditors will not ignore.
+        </p>
+        <p class="text-slate-400 leading-relaxed">
+          Solo Vault AI takes the opposite approach: keep the models, agents, and data inside a boundary the customer controls. Make human governance explicit. Make every action auditable. Deliver the productivity of agentic systems without the data-exfiltration path.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="glass rounded-2xl p-6">
+          <h3 class="font-semibold text-white mb-2">Private by Design</h3>
+          <p class="text-sm text-slate-400">Architecture that makes data leakage structurally difficult rather than merely prohibited by policy.</p>
+        </div>
+        <div class="glass rounded-2xl p-6">
+          <h3 class="font-semibold text-white mb-2">Human-Governed</h3>
+          <p class="text-sm text-slate-400">Agents operate under explicit authority. High-stakes actions require human approval.</p>
+        </div>
+        <div class="glass rounded-2xl p-6">
+          <h3 class="font-semibold text-white mb-2">Production-Ready</h3>
+          <p class="text-sm text-slate-400">Built for real workloads on NVIDIA DGX infrastructure with operational rigor.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="border-t border-white/5 py-10">
+    <div class="max-w-7xl mx-auto px-4 text-center text-sm text-slate-600">
+      <p>© 2026 Solo Vault AI, Inc.</p>
+    </div>
+  </footer>
+</body>
+</html>
