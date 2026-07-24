@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-label="Solo Vault AI">
+  <!-- Icon -->
+  <circle cx="40" cy="40" r="32" fill="#969696"/>
+  <line x1="14" y1="62" x2="66" y2="18" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Wordmark -->
+  <text x="90" y="38" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">Solo Vault</text>
+  <text x="90" y="62" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="500" fill="#00f0ff">AI</text>
+</svg>
